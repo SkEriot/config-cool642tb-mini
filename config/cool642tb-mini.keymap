@@ -64,10 +64,10 @@
 
         NUM {
             bindings = <
-&kp MINUS   &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp LS(EQUAL)                                  &kp INTERNATIONAL_3  &kp SEMICOLON   &mkp MB3        &kp COLON        &kp HOME
-&kp PERIOD  &kp NUMBER_4       &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0   &kp LS(LT)          &kp LS(GT)  &kp UNDER            &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp END
-&kp COMMA   &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &trans              &trans      &kp LEFT_BRACKET     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
-&kp LCTRL   &mt LEFT_WIN PLUS  &kp ASTERISK  &trans        &trans         &kp LANGUAGE_1      &trans      &trans                                                                &kp DELETE
+&kp MINUS   &kp NUMBER_7                &kp NUMBER_8  &kp NUMBER_9  &kp LS(EQUAL)                                  &kp INTERNATIONAL_3  &kp SEMICOLON   &mkp MB3        &kp COLON        &kp HOME
+&kp PERIOD  &kp NUMBER_4                &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0   &kp LS(LT)          &kp LS(GT)  &kp UNDER            &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp END
+&kp COMMA   &kp NUMBER_1                &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &trans              &trans      &kp LEFT_BRACKET     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &lt 5 END
+&kp LCTRL   &mt LEFT_WIN LS(SEMICOLON)  &kp LS(SQT)   &trans        &trans         &kp LANGUAGE_1      &trans      &trans                                                                &kp DELETE
             >;
         };
 
