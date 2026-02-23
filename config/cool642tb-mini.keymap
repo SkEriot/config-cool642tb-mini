@@ -19,13 +19,13 @@
 
         mousebottan {
             bindings = <&mkp MB1>;
-            key-positions = <18 19>;
+            key-positions = <19 6>;
             layers = <4>;
         };
 
         mousebotton {
             bindings = <&mkp MB2>;
-            key-positions = <19 20>;
+            key-positions = <19 8>;
             layers = <4>;
         };
     };
