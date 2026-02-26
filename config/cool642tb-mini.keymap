@@ -14,21 +14,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        mousebottan {
-            bindings = <&mkp MB1>;
-            key-positions = <19 29>;
-            layers = <4>;
-        };
-
-        mousebotton {
-            bindings = <&mkp MB2>;
-            key-positions = <19 33>;
-            layers = <4>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         encoder_msc_down_up: encoder_msc_down_up {
@@ -86,10 +72,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1                          &mkp MB2
             >;
         };
 
